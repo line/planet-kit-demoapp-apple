@@ -1,0 +1,1811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE04ED1C2CA12BDE00CAD37D /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED687042C9C088F00AD87AD /* View+Extension.swift */; };
+		CE04ED1E2CA32BF000CAD37D /* GroupCallInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04ED1D2CA32BF000CAD37D /* GroupCallInfoView.swift */; };
+		CE04ED1F2CA32DD100CAD37D /* GroupCallInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04ED1D2CA32BF000CAD37D /* GroupCallInfoView.swift */; };
+		CE07D7DB2C5B932800BC17A3 /* MockCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D7DA2C5B932800BC17A3 /* MockCallService.swift */; };
+		CE0B365B2C5B7B9B00FEEE82 /* MyMuteIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B365A2C5B7B9B00FEEE82 /* MyMuteIconView.swift */; };
+		CE0B36602C5B917C00FEEE82 /* PlanetCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B365F2C5B917C00FEEE82 /* PlanetCallService.swift */; };
+		CE193BBA2C52360C00283345 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE193BB72C52360C00283345 /* UserAccount.swift */; };
+		CE193BBB2C52360C00283345 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE193BB72C52360C00283345 /* UserAccount.swift */; };
+		CE193BBC2C52360C00283345 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE193BB82C52360C00283345 /* Camera.swift */; };
+		CE193BBD2C52360C00283345 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE193BB82C52360C00283345 /* Camera.swift */; };
+		CE193BBE2C52360C00283345 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE193BB92C52360C00283345 /* VideoView.swift */; };
+		CE193BBF2C52360C00283345 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE193BB92C52360C00283345 /* VideoView.swift */; };
+		CE1F067E2C5CCF4700A4E981 /* PlanetCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B365F2C5B917C00FEEE82 /* PlanetCallService.swift */; };
+		CE1F067F2C5CCF4700A4E981 /* MockCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07D7DA2C5B932800BC17A3 /* MockCallService.swift */; };
+		CE1F06802C5CCFD900A4E981 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5931222C5CAA34004DC22B /* ElapsedTimeView.swift */; };
+		CE1F06812C5CCFD900A4E981 /* ElapsedTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5931202C5CAA10004DC22B /* ElapsedTimeViewModel.swift */; };
+		CE1F06822C5CCFE600A4E981 /* AudioDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34B6872C53341F0052AA0E /* AudioDeviceViewModel.swift */; };
+		CE1F06832C5CCFE600A4E981 /* VideoDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE401F132C574FAF00C48722 /* VideoDeviceView.swift */; };
+		CE1F06842C5CCFE600A4E981 /* AudioDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34B6852C5334110052AA0E /* AudioDeviceView.swift */; };
+		CE1F06852C5CCFE600A4E981 /* VideoDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE401F152C574FD900C48722 /* VideoDeviceViewModel.swift */; };
+		CE1F06862C5CD02300A4E981 /* IncomingCallDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4148F2C48AE260080BFE3 /* IncomingCallDesktopView.swift */; };
+		CE1F06872C5CD02300A4E981 /* PreviewCallDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414A32C49F9030080BFE3 /* PreviewCallDesktopView.swift */; };
+		CE1F06882C5CD03500A4E981 /* PlanetAudioDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34B68C2C5347F30052AA0E /* PlanetAudioDeviceService.swift */; };
+		CE1F06892C5CD03500A4E981 /* PlanetVideoDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34B68E2C5366B90052AA0E /* PlanetVideoDeviceService.swift */; };
+		CE1F068B2C5CE42E00A4E981 /* PlanetConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F068A2C5CE42E00A4E981 /* PlanetConstant.swift */; };
+		CE1F068D2C60630B00A4E981 /* AudioDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F068C2C60630B00A4E981 /* AudioDeviceService.swift */; };
+		CE1F068F2C60635000A4E981 /* VideoDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F068E2C60635000A4E981 /* VideoDeviceService.swift */; };
+		CE1F06902C60635000A4E981 /* VideoDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F068E2C60635000A4E981 /* VideoDeviceService.swift */; };
+		CE1F06922C60636600A4E981 /* MockVideoDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F06912C60636600A4E981 /* MockVideoDeviceService.swift */; };
+		CE1F06932C60636600A4E981 /* MockVideoDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F06912C60636600A4E981 /* MockVideoDeviceService.swift */; };
+		CE1F06952C60651000A4E981 /* MockAudioDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F06942C60651000A4E981 /* MockAudioDeviceService.swift */; };
+		CE1F06962C60651000A4E981 /* MockAudioDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F06942C60651000A4E981 /* MockAudioDeviceService.swift */; };
+		CE1F06972C606CD600A4E981 /* AudioDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F068C2C60630B00A4E981 /* AudioDeviceService.swift */; };
+		CE1F06982C606D0A00A4E981 /* PlanetConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F068A2C5CE42E00A4E981 /* PlanetConstant.swift */; };
+		CE1F069A2C6079DC00A4E981 /* MyProfileDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F06992C6079DC00A4E981 /* MyProfileDesktopView.swift */; };
+		CE1F069B2C6079DC00A4E981 /* MyProfileDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F06992C6079DC00A4E981 /* MyProfileDesktopView.swift */; };
+		CE1F069D2C607A0D00A4E981 /* PeerProfileDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F069C2C607A0D00A4E981 /* PeerProfileDesktopView.swift */; };
+		CE1F069E2C607A0D00A4E981 /* PeerProfileDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F069C2C607A0D00A4E981 /* PeerProfileDesktopView.swift */; };
+		CE26BEFC2C463F1300E24D81 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE26BEFA2C463F0B00E24D81 /* CoreTelephony.framework */; };
+		CE26BF022C46407C00E24D81 /* 48k-Ring.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE26BEFE2C46407C00E24D81 /* 48k-Ring.wav */; };
+		CE26BF032C46407C00E24D81 /* 48k-Ring.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE26BEFE2C46407C00E24D81 /* 48k-Ring.wav */; };
+		CE26BF042C46407C00E24D81 /* 48k-End.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE26BEFF2C46407C00E24D81 /* 48k-End.wav */; };
+		CE26BF052C46407C00E24D81 /* 48k-End.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE26BEFF2C46407C00E24D81 /* 48k-End.wav */; };
+		CE26BF062C46407C00E24D81 /* 48k-Hold.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE26BF002C46407C00E24D81 /* 48k-Hold.wav */; };
+		CE26BF072C46407C00E24D81 /* 48k-Hold.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE26BF002C46407C00E24D81 /* 48k-Hold.wav */; };
+		CE26BF082C46407C00E24D81 /* 48k-Ringback.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE26BF012C46407C00E24D81 /* 48k-Ringback.wav */; };
+		CE26BF092C46407C00E24D81 /* 48k-Ringback.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE26BF012C46407C00E24D81 /* 48k-Ringback.wav */; };
+		CE26BF0B2C46570000E24D81 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE26BF0A2C46570000E24D81 /* CallKit.framework */; };
+		CE26BF0E2C46572D00E24D81 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE26BEFA2C463F0B00E24D81 /* CoreTelephony.framework */; };
+		CE312E332C298DDA008A28B8 /* SettingsTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE312E2F2C298DDA008A28B8 /* SettingsTextFieldView.swift */; };
+		CE312E382C2A8742008A28B8 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE312E372C2A8742008A28B8 /* MainViewModel.swift */; };
+		CE34B6862C5334110052AA0E /* AudioDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34B6852C5334110052AA0E /* AudioDeviceView.swift */; };
+		CE34B6882C53341F0052AA0E /* AudioDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34B6872C53341F0052AA0E /* AudioDeviceViewModel.swift */; };
+		CE34B68D2C5347F30052AA0E /* PlanetAudioDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34B68C2C5347F30052AA0E /* PlanetAudioDeviceService.swift */; };
+		CE34B68F2C5366B90052AA0E /* PlanetVideoDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34B68E2C5366B90052AA0E /* PlanetVideoDeviceService.swift */; };
+		CE34EC3F2C6F1DFC00C9A623 /* DeviceAuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34EC3E2C6F1DFC00C9A623 /* DeviceAuthorizationService.swift */; };
+		CE34EC402C6F1E1500C9A623 /* DeviceAuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34EC3E2C6F1DFC00C9A623 /* DeviceAuthorizationService.swift */; };
+		CE34EC522C744BEE00C9A623 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE34EC4B2C744A6900C9A623 /* Info.plist */; };
+		CE38B9072C91373700CD6462 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE920B2C909E5900BA1D0C /* ToastView.swift */; };
+		CE401F142C574FAF00C48722 /* VideoDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE401F132C574FAF00C48722 /* VideoDeviceView.swift */; };
+		CE401F162C574FD900C48722 /* VideoDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE401F152C574FD900C48722 /* VideoDeviceViewModel.swift */; };
+		CE4277FF2C89A129006BD7E6 /* PlanetAppServerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE940AE02C87060C00D7EECF /* PlanetAppServerRepository.swift */; };
+		CE45B73F2C50E6E200779054 /* CallEndStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B73E2C50E6E200779054 /* CallEndStatusView.swift */; };
+		CE45B7402C50E78D00779054 /* CallEndStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B73E2C50E6E200779054 /* CallEndStatusView.swift */; };
+		CE4C3DB52C4FB450009DD112 /* MockSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3DB42C4FB450009DD112 /* MockSettingsService.swift */; };
+		CE4C3DB72C4FB45F009DD112 /* PlanetSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3DB62C4FB45F009DD112 /* PlanetSettingsService.swift */; };
+		CE4F1CD42C1BDB960087DEEF /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F1CD22C1BDB960087DEEF /* CameraPreviewView.swift */; };
+		CE4F1CD72C1BDC120087DEEF /* PlanetKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE4F1CD62C1BDC120087DEEF /* PlanetKit */; };
+		CE4F1CE12C22C22C0087DEEF /* DemoLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F1CE02C22C22C0087DEEF /* DemoLabelStyle.swift */; };
+		CE52D0C52C6AFB6C0083C8A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE52D0C02C6AFB6C0083C8A8 /* Localizable.strings */; };
+		CE52D0C62C6AFB6C0083C8A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE52D0C02C6AFB6C0083C8A8 /* Localizable.strings */; };
+		CE52D0C72C6AFB6C0083C8A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE52D0C32C6AFB6C0083C8A8 /* Localizable.strings */; };
+		CE52D0C82C6AFB6C0083C8A8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE52D0C32C6AFB6C0083C8A8 /* Localizable.strings */; };
+		CE52D0CE2C6B58FB0083C8A8 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52D0CD2C6B58FB0083C8A8 /* LocalizedString.swift */; };
+		CE52D0CF2C6B58FB0083C8A8 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52D0CD2C6B58FB0083C8A8 /* LocalizedString.swift */; };
+		CE52D0D12C6C66790083C8A8 /* PeerProfileMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52D0D02C6C66790083C8A8 /* PeerProfileMobileView.swift */; };
+		CE52D0D22C6C82940083C8A8 /* PeerProfileMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE52D0D02C6C66790083C8A8 /* PeerProfileMobileView.swift */; };
+		CE52D0D32C6C82E20083C8A8 /* CameraPreviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7614892C69F3F000CCBEDF /* CameraPreviewService.swift */; };
+		CE52D0D42C6C82F00083C8A8 /* GroupCallPreviewMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7614862C69F02400CCBEDF /* GroupCallPreviewMobileView.swift */; };
+		CE52D0D52C6C82FC0083C8A8 /* GroupCallPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7614902C6A132D00CCBEDF /* GroupCallPreviewViewModel.swift */; };
+		CE52D0D62C6C83050083C8A8 /* GroupCallMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7672C539716009EA17C /* GroupCallMobileView.swift */; };
+		CE52D0D72C6C83100083C8A8 /* PlanetGroupCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7682C539716009EA17C /* PlanetGroupCallService.swift */; };
+		CE52D0D82C6C831A0083C8A8 /* GroupCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7692C539716009EA17C /* GroupCallService.swift */; };
+		CE52D0D92C6C83250083C8A8 /* GroupCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7652C539716009EA17C /* GroupCallViewModel.swift */; };
+		CE52D0DA2C6C83300083C8A8 /* GroupCallPeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75E2C539716009EA17C /* GroupCallPeerView.swift */; };
+		CE52D0DB2C6C834A0083C8A8 /* MockGroupCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD76A2C539716009EA17C /* MockGroupCallService.swift */; };
+		CE52D0DC2C6C83550083C8A8 /* GroupCallPreviewDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7614922C6A137100CCBEDF /* GroupCallPreviewDesktopView.swift */; };
+		CE52D0DD2C6C83590083C8A8 /* GroupCallMyViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7572C539716009EA17C /* GroupCallMyViewViewModel.swift */; };
+		CE52D0DE2C6C83590083C8A8 /* GroupCallMyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7562C539716009EA17C /* GroupCallMyView.swift */; };
+		CE52D0DF2C6C835C0083C8A8 /* GroupCallToolBarMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75C2C539716009EA17C /* GroupCallToolBarMobileView.swift */; };
+		CE52D0E02C6C835C0083C8A8 /* GroupCallToolBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75B2C539716009EA17C /* GroupCallToolBarViewModel.swift */; };
+		CE52D0E12C6C835C0083C8A8 /* GroupCallToolBarDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7592C539716009EA17C /* GroupCallToolBarDesktopView.swift */; };
+		CE52D0E22C6C835C0083C8A8 /* GroupCallToolBarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75A2C539716009EA17C /* GroupCallToolBarControl.swift */; };
+		CE52D0E32C6C83630083C8A8 /* GroupCallPeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7622C539716009EA17C /* GroupCallPeerViewModel.swift */; };
+		CE52D0E42C6C83630083C8A8 /* PlanetGroupCallPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75F2C539716009EA17C /* PlanetGroupCallPeer.swift */; };
+		CE52D0E52C6C83630083C8A8 /* MockGroupCallPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7612C539716009EA17C /* MockGroupCallPeer.swift */; };
+		CE52D0E62C6C83630083C8A8 /* GroupCallPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7602C539716009EA17C /* GroupCallPeer.swift */; };
+		CE52D0E72C6C83670083C8A8 /* GroupCallDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7662C539716009EA17C /* GroupCallDesktopView.swift */; };
+		CE5907692C773F69005B3200 /* CallStartFailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5907682C773F69005B3200 /* CallStartFailureView.swift */; };
+		CE59076C2C77459E005B3200 /* CallStartFailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5907682C773F69005B3200 /* CallStartFailureView.swift */; };
+		CE5931212C5CAA10004DC22B /* ElapsedTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5931202C5CAA10004DC22B /* ElapsedTimeViewModel.swift */; };
+		CE5931232C5CAA34004DC22B /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5931222C5CAA34004DC22B /* ElapsedTimeView.swift */; };
+		CE614D192B9968E90049F37D /* planet_kit_demoapp_appleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D182B9968E90049F37D /* planet_kit_demoapp_appleApp.swift */; };
+		CE614D1D2B9968EB0049F37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE614D1C2B9968EB0049F37D /* Assets.xcassets */; };
+		CE614D212B9968EB0049F37D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE614D202B9968EB0049F37D /* Preview Assets.xcassets */; };
+		CE614D2B2B9968EB0049F37D /* planet_kit_demoapp_appleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D2A2B9968EB0049F37D /* planet_kit_demoapp_appleTests.swift */; };
+		CE614D352B9968EB0049F37D /* planet_kit_demoapp_appleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D342B9968EB0049F37D /* planet_kit_demoapp_appleUITests.swift */; };
+		CE614D372B9968EB0049F37D /* planet_kit_demoapp_appleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D362B9968EB0049F37D /* planet_kit_demoapp_appleUITestsLaunchTests.swift */; };
+		CE614D442B996DE10049F37D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D432B996DE10049F37D /* MainView.swift */; };
+		CE614D462B99AFFB0049F37D /* DemoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D452B99AFFB0049F37D /* DemoColor.swift */; };
+		CE614D482B99B00F0049F37D /* DemoFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D472B99B00F0049F37D /* DemoFont.swift */; };
+		CE641FAD2C52240700A99115 /* PreviewCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414A52C49F9200080BFE3 /* PreviewCallViewModel.swift */; };
+		CE641FB12C52242100A99115 /* PushService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F3DA2C51DE9900B2520C /* PushService.swift */; };
+		CE641FB22C52242100A99115 /* LongPollingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F3D62C51DE2800B2520C /* LongPollingService.swift */; };
+		CE641FB32C52242100A99115 /* MockPushService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F3DC2C51DEE200B2520C /* MockPushService.swift */; };
+		CE641FB42C52243000A99115 /* PeerMuteIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC02E52C4F9B8200CFF37D /* PeerMuteIconView.swift */; };
+		CE641FB52C52243000A99115 /* CallCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4149B2C48FAA30080BFE3 /* CallCommonView.swift */; };
+		CE641FB72C52243500A99115 /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414A92C49FCB90080BFE3 /* CallViewModel.swift */; };
+		CE641FB82C52244D00A99115 /* PlanetKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414B52C4E41980080BFE3 /* PlanetKit+Extension.swift */; };
+		CE6B5F7B2C91911D005C9715 /* ToastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7AC6D2C913EE500E067CF /* ToastMessageView.swift */; };
+		CE6B5F7D2C919173005C9715 /* MyMuteIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B365A2C5B7B9B00FEEE82 /* MyMuteIconView.swift */; };
+		CE7614872C69F02400CCBEDF /* GroupCallPreviewMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7614862C69F02400CCBEDF /* GroupCallPreviewMobileView.swift */; };
+		CE76148A2C69F3F000CCBEDF /* CameraPreviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7614892C69F3F000CCBEDF /* CameraPreviewService.swift */; };
+		CE7614912C6A132D00CCBEDF /* GroupCallPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7614902C6A132D00CCBEDF /* GroupCallPreviewViewModel.swift */; };
+		CE7614932C6A137100CCBEDF /* GroupCallPreviewDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7614922C6A137100CCBEDF /* GroupCallPreviewDesktopView.swift */; };
+		CE7728952C631C240026B4FB /* MuteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7728942C631C240026B4FB /* MuteButtonView.swift */; };
+		CE7728992C631C930026B4FB /* PauseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7728982C631C930026B4FB /* PauseButtonView.swift */; };
+		CE8B35EF2C58A82D00FBF54D /* PlanetKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE8B35EE2C58A82D00FBF54D /* PlanetKit */; };
+		CE940AE12C87060C00D7EECF /* PlanetAppServerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE940AE02C87060C00D7EECF /* PlanetAppServerRepository.swift */; };
+		CEA9346E2C8AABDF003FB92D /* SettingsErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2DAC62C8A99F800ADF222 /* SettingsErrorView.swift */; };
+		CEB4F6232C564F9A007991B4 /* CameraPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4F6222C564F9A007991B4 /* CameraPreviewViewModel.swift */; };
+		CEBF86962C91993800763446 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF86952C91993800763446 /* AppLog.swift */; };
+		CEBF86972C91993800763446 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF86952C91993800763446 /* AppLog.swift */; };
+		CED465A02C633517004BD9DD /* PauseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7728982C631C930026B4FB /* PauseButtonView.swift */; };
+		CED465A12C633517004BD9DD /* MuteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7728942C631C240026B4FB /* MuteButtonView.swift */; };
+		CED687052C9C088F00AD87AD /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED687042C9C088F00AD87AD /* View+Extension.swift */; };
+		CEDC02E62C4F9B8200CFF37D /* PeerMuteIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC02E52C4F9B8200CFF37D /* PeerMuteIconView.swift */; };
+		CEDE920C2C909E5900BA1D0C /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE920B2C909E5900BA1D0C /* ToastView.swift */; };
+		CEDF1DA92C3D12560036F91F /* PushKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1DA82C3D12560036F91F /* PushKitService.swift */; };
+		CEDF1DAB2C3D12610036F91F /* CallKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1DAA2C3D12610036F91F /* CallKitService.swift */; };
+		CEDF1DB62C3E4EBE0036F91F /* CallUseCasesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1DB52C3E4EBE0036F91F /* CallUseCasesViewModel.swift */; };
+		CEDF1DB82C3E801D0036F91F /* MakeCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1DB72C3E801D0036F91F /* MakeCallViewModel.swift */; };
+		CEDF1DEE2C3FA3410036F91F /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F1CD22C1BDB960087DEEF /* CameraPreviewView.swift */; };
+		CEDF1DEF2C3FA3410036F91F /* MakeCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1DB72C3E801D0036F91F /* MakeCallViewModel.swift */; };
+		CEDF1DF02C3FA3410036F91F /* DemoLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F1CE02C22C22C0087DEEF /* DemoLabelStyle.swift */; };
+		CEDF1DF22C3FA3410036F91F /* CallUseCasesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1DB52C3E4EBE0036F91F /* CallUseCasesViewModel.swift */; };
+		CEDF1DF72C3FA3410036F91F /* SettingsTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE312E2F2C298DDA008A28B8 /* SettingsTextFieldView.swift */; };
+		CEDF1DFA2C3FA3410036F91F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D432B996DE10049F37D /* MainView.swift */; };
+		CEDF1DFC2C3FA3410036F91F /* CallKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1DAA2C3D12610036F91F /* CallKitService.swift */; };
+		CEDF1DFE2C3FA3410036F91F /* PushKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1DA82C3D12560036F91F /* PushKitService.swift */; };
+		CEDF1DFF2C3FA3410036F91F /* DemoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D452B99AFFB0049F37D /* DemoColor.swift */; };
+		CEDF1E002C3FA3410036F91F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE312E372C2A8742008A28B8 /* MainViewModel.swift */; };
+		CEDF1E012C3FA3410036F91F /* DemoFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D472B99B00F0049F37D /* DemoFont.swift */; };
+		CEDF1E022C3FA3410036F91F /* planet_kit_demoapp_appleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE614D182B9968E90049F37D /* planet_kit_demoapp_appleApp.swift */; };
+		CEDF1E0B2C3FA3410036F91F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE614D202B9968EB0049F37D /* Preview Assets.xcassets */; };
+		CEDF1E0C2C3FA3410036F91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE614D1C2B9968EB0049F37D /* Assets.xcassets */; };
+		CEEDD74D2C5396E7009EA17C /* LogBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7482C5396E7009EA17C /* LogBrowser.swift */; };
+		CEEDD74E2C5396E7009EA17C /* MockMyMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7492C5396E7009EA17C /* MockMyMediaStatus.swift */; };
+		CEEDD74F2C5396E7009EA17C /* PlanetMyMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD74A2C5396E7009EA17C /* PlanetMyMediaStatus.swift */; };
+		CEEDD7502C5396E7009EA17C /* MyMediaStatusObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD74B2C5396E7009EA17C /* MyMediaStatusObservable.swift */; };
+		CEEDD7512C5396E7009EA17C /* VideoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD74C2C5396E7009EA17C /* VideoStream.swift */; };
+		CEEDD76F2C539716009EA17C /* GroupCallMyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7562C539716009EA17C /* GroupCallMyView.swift */; };
+		CEEDD7702C539716009EA17C /* GroupCallMyViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7572C539716009EA17C /* GroupCallMyViewViewModel.swift */; };
+		CEEDD7712C539716009EA17C /* GroupCallToolBarDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7592C539716009EA17C /* GroupCallToolBarDesktopView.swift */; };
+		CEEDD7722C539716009EA17C /* GroupCallToolBarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75A2C539716009EA17C /* GroupCallToolBarControl.swift */; };
+		CEEDD7732C539716009EA17C /* GroupCallToolBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75B2C539716009EA17C /* GroupCallToolBarViewModel.swift */; };
+		CEEDD7742C539716009EA17C /* GroupCallToolBarMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75C2C539716009EA17C /* GroupCallToolBarMobileView.swift */; };
+		CEEDD7752C539716009EA17C /* GroupCallPeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75E2C539716009EA17C /* GroupCallPeerView.swift */; };
+		CEEDD7762C539716009EA17C /* PlanetGroupCallPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD75F2C539716009EA17C /* PlanetGroupCallPeer.swift */; };
+		CEEDD7772C539716009EA17C /* GroupCallPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7602C539716009EA17C /* GroupCallPeer.swift */; };
+		CEEDD7782C539716009EA17C /* MockGroupCallPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7612C539716009EA17C /* MockGroupCallPeer.swift */; };
+		CEEDD7792C539716009EA17C /* GroupCallPeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7622C539716009EA17C /* GroupCallPeerViewModel.swift */; };
+		CEEDD77A2C539716009EA17C /* GroupCallJoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7632C539716009EA17C /* GroupCallJoinView.swift */; };
+		CEEDD77B2C539716009EA17C /* GroupCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7652C539716009EA17C /* GroupCallViewModel.swift */; };
+		CEEDD77C2C539716009EA17C /* GroupCallDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7662C539716009EA17C /* GroupCallDesktopView.swift */; };
+		CEEDD77D2C539716009EA17C /* GroupCallMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7672C539716009EA17C /* GroupCallMobileView.swift */; };
+		CEEDD77E2C539716009EA17C /* PlanetGroupCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7682C539716009EA17C /* PlanetGroupCallService.swift */; };
+		CEEDD77F2C539716009EA17C /* GroupCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7692C539716009EA17C /* GroupCallService.swift */; };
+		CEEDD7802C539716009EA17C /* MockGroupCallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD76A2C539716009EA17C /* MockGroupCallService.swift */; };
+		CEEDD7812C539716009EA17C /* GroupCallUseCasesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD76C2C539716009EA17C /* GroupCallUseCasesViewModel.swift */; };
+		CEEDD7822C539716009EA17C /* GroupCallUseCasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD76D2C539716009EA17C /* GroupCallUseCasesView.swift */; };
+		CEEDD7832C539716009EA17C /* GroupCallJoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD76E2C539716009EA17C /* GroupCallJoinViewModel.swift */; };
+		CEF2DAC72C8A99F800ADF222 /* SettingsErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2DAC62C8A99F800ADF222 /* SettingsErrorView.swift */; };
+		CEF4148D2C4796D70080BFE3 /* AudioCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4148C2C4796D70080BFE3 /* AudioCallViewModel.swift */; };
+		CEF4148E2C47972A0080BFE3 /* AudioCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4148C2C4796D70080BFE3 /* AudioCallViewModel.swift */; };
+		CEF414902C48AE260080BFE3 /* IncomingCallDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4148F2C48AE260080BFE3 /* IncomingCallDesktopView.swift */; };
+		CEF4149A2C48FA150080BFE3 /* AudioCallDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414992C48FA150080BFE3 /* AudioCallDesktopView.swift */; };
+		CEF4149C2C48FAA30080BFE3 /* CallCommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4149B2C48FAA30080BFE3 /* CallCommonView.swift */; };
+		CEF4149E2C49F6090080BFE3 /* VideoCallMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4149D2C49F6090080BFE3 /* VideoCallMobileView.swift */; };
+		CEF414A02C49F6420080BFE3 /* VideoCallDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4149F2C49F6420080BFE3 /* VideoCallDesktopView.swift */; };
+		CEF414A22C49F8A70080BFE3 /* VideoCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414A12C49F8A70080BFE3 /* VideoCallViewModel.swift */; };
+		CEF414A42C49F9030080BFE3 /* PreviewCallDesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414A32C49F9030080BFE3 /* PreviewCallDesktopView.swift */; };
+		CEF414A62C49F9200080BFE3 /* PreviewCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414A52C49F9200080BFE3 /* PreviewCallViewModel.swift */; };
+		CEF414A72C49F97D0080BFE3 /* VideoCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414A12C49F8A70080BFE3 /* VideoCallViewModel.swift */; };
+		CEF414A82C49F9860080BFE3 /* VideoCallMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4149D2C49F6090080BFE3 /* VideoCallMobileView.swift */; };
+		CEF414AA2C49FCB90080BFE3 /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414A92C49FCB90080BFE3 /* CallViewModel.swift */; };
+		CEF414B62C4E41980080BFE3 /* PlanetKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF414B52C4E41980080BFE3 /* PlanetKit+Extension.swift */; };
+		CEF7AC6E2C913EE500E067CF /* ToastMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7AC6D2C913EE500E067CF /* ToastMessageView.swift */; };
+		CEF7F3D72C51DE2800B2520C /* LongPollingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F3D62C51DE2800B2520C /* LongPollingService.swift */; };
+		CEF7F3DB2C51DE9900B2520C /* PushService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F3DA2C51DE9900B2520C /* PushService.swift */; };
+		CEF7F3DD2C51DEE200B2520C /* MockPushService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7F3DC2C51DEE200B2520C /* MockPushService.swift */; };
+		CEFBADE72C58901500826502 /* DemoButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADE62C58901500826502 /* DemoButtonStyle.swift */; };
+		CEFBADE92C58903B00826502 /* AppServerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADE82C58903B00826502 /* AppServerRepository.swift */; };
+		CEFBADEB2C58905700826502 /* AudioCallMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADEA2C58905700826502 /* AudioCallMobileView.swift */; };
+		CEFBADEF2C58909200826502 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADEE2C58909200826502 /* SettingsView.swift */; };
+		CEFBADF12C5890A600826502 /* CallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF02C5890A600826502 /* CallService.swift */; };
+		CEFBADF32C5890B600826502 /* MakeCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF22C5890B600826502 /* MakeCallView.swift */; };
+		CEFBADF52C5890CC00826502 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF42C5890CC00826502 /* SettingsService.swift */; };
+		CEFBADF72C5890E000826502 /* DemoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF62C5890E000826502 /* DemoViews.swift */; };
+		CEFBADF92C58910200826502 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF82C58910200826502 /* SettingsViewModel.swift */; };
+		CEFBADFB2C58911D00826502 /* CallUseCasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADFA2C58911D00826502 /* CallUseCasesView.swift */; };
+		CEFBADFC2C58A47C00826502 /* VideoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD74C2C5396E7009EA17C /* VideoStream.swift */; };
+		CEFBADFD2C58A48200826502 /* LogBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7482C5396E7009EA17C /* LogBrowser.swift */; };
+		CEFBADFE2C58A48200826502 /* MockMyMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7492C5396E7009EA17C /* MockMyMediaStatus.swift */; };
+		CEFBADFF2C58A48200826502 /* PlanetMyMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD74A2C5396E7009EA17C /* PlanetMyMediaStatus.swift */; };
+		CEFBAE002C58A48200826502 /* MyMediaStatusObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD74B2C5396E7009EA17C /* MyMediaStatusObservable.swift */; };
+		CEFBAE012C58A49100826502 /* CallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF02C5890A600826502 /* CallService.swift */; };
+		CEFBAE032C58A4AE00826502 /* AppServerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADE82C58903B00826502 /* AppServerRepository.swift */; };
+		CEFBAE042C58A4BA00826502 /* DemoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF62C5890E000826502 /* DemoViews.swift */; };
+		CEFBAE052C58A4CB00826502 /* DemoButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADE62C58901500826502 /* DemoButtonStyle.swift */; };
+		CEFBAE062C58A4E200826502 /* CallUseCasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADFA2C58911D00826502 /* CallUseCasesView.swift */; };
+		CEFBAE092C58A50E00826502 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADEE2C58909200826502 /* SettingsView.swift */; };
+		CEFBAE0A2C58A51200826502 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF82C58910200826502 /* SettingsViewModel.swift */; };
+		CEFBAE0B2C58A51E00826502 /* MakeCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF22C5890B600826502 /* MakeCallView.swift */; };
+		CEFBAE0D2C58A53900826502 /* PlanetSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3DB62C4FB45F009DD112 /* PlanetSettingsService.swift */; };
+		CEFBAE0E2C58A53900826502 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADF42C5890CC00826502 /* SettingsService.swift */; };
+		CEFBAE0F2C58A53900826502 /* MockSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C3DB42C4FB450009DD112 /* MockSettingsService.swift */; };
+		CEFBAE102C58A54700826502 /* CameraPreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4F6222C564F9A007991B4 /* CameraPreviewViewModel.swift */; };
+		CEFBAE112C58A55300826502 /* GroupCallUseCasesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD76C2C539716009EA17C /* GroupCallUseCasesViewModel.swift */; };
+		CEFBAE122C58A55300826502 /* GroupCallUseCasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD76D2C539716009EA17C /* GroupCallUseCasesView.swift */; };
+		CEFBAE132C58A57200826502 /* AudioCallMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBADEA2C58905700826502 /* AudioCallMobileView.swift */; };
+		CEFBAE152C58A58600826502 /* GroupCallJoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7632C539716009EA17C /* GroupCallJoinView.swift */; };
+		CEFBAE162C58A58600826502 /* GroupCallJoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD76E2C539716009EA17C /* GroupCallJoinViewModel.swift */; };
+		CEFBAE182C58A6B700826502 /* AppEnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBAE172C58A6B700826502 /* AppEnvironmentManager.swift */; };
+		CEFBAE192C58A6D300826502 /* AppEnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBAE172C58A6B700826502 /* AppEnvironmentManager.swift */; };
+		CEFCBEE22C8FF7760060BA6E /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCBEE12C8FF7760060BA6E /* AppConstant.swift */; };
+		CEFCBEE32C8FFA0B0060BA6E /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCBEE12C8FF7760060BA6E /* AppConstant.swift */; };
+		CEFF2D382C7DE332002F9E1B /* DemoApp-iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFF2D362C7DE332002F9E1B /* DemoApp-iOS-Info.plist */; };
+		CEFF2D392C7DE338002F9E1B /* DemoApp-iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFF2D362C7DE332002F9E1B /* DemoApp-iOS-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE614D272B9968EB0049F37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE614D0D2B9968E90049F37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE614D142B9968E90049F37D;
+			remoteInfo = "planet-kit-demoapp-apple";
+		};
+		CE614D312B9968EB0049F37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE614D0D2B9968E90049F37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE614D142B9968E90049F37D;
+			remoteInfo = "planet-kit-demoapp-apple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE04ED1D2CA32BF000CAD37D /* GroupCallInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCallInfoView.swift; sourceTree = "<group>"; };
+		CE07D7DA2C5B932800BC17A3 /* MockCallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCallService.swift; sourceTree = "<group>"; };
+		CE0B365A2C5B7B9B00FEEE82 /* MyMuteIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMuteIconView.swift; sourceTree = "<group>"; };
+		CE0B365F2C5B917C00FEEE82 /* PlanetCallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCallService.swift; sourceTree = "<group>"; };
+		CE193BB72C52360C00283345 /* UserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		CE193BB82C52360C00283345 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		CE193BB92C52360C00283345 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		CE1F068A2C5CE42E00A4E981 /* PlanetConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetConstant.swift; sourceTree = "<group>"; };
+		CE1F068C2C60630B00A4E981 /* AudioDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDeviceService.swift; sourceTree = "<group>"; };
+		CE1F068E2C60635000A4E981 /* VideoDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDeviceService.swift; sourceTree = "<group>"; };
+		CE1F06912C60636600A4E981 /* MockVideoDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockVideoDeviceService.swift; sourceTree = "<group>"; };
+		CE1F06942C60651000A4E981 /* MockAudioDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAudioDeviceService.swift; sourceTree = "<group>"; };
+		CE1F06992C6079DC00A4E981 /* MyProfileDesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileDesktopView.swift; sourceTree = "<group>"; };
+		CE1F069C2C607A0D00A4E981 /* PeerProfileDesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerProfileDesktopView.swift; sourceTree = "<group>"; };
+		CE26BEFA2C463F0B00E24D81 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		CE26BEFE2C46407C00E24D81 /* 48k-Ring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "48k-Ring.wav"; sourceTree = "<group>"; };
+		CE26BEFF2C46407C00E24D81 /* 48k-End.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "48k-End.wav"; sourceTree = "<group>"; };
+		CE26BF002C46407C00E24D81 /* 48k-Hold.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "48k-Hold.wav"; sourceTree = "<group>"; };
+		CE26BF012C46407C00E24D81 /* 48k-Ringback.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "48k-Ringback.wav"; sourceTree = "<group>"; };
+		CE26BF0A2C46570000E24D81 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/CallKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE26BF0C2C46570600E24D81 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.2.sdk/System/Library/Frameworks/PushKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE312E2F2C298DDA008A28B8 /* SettingsTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTextFieldView.swift; sourceTree = "<group>"; };
+		CE312E372C2A8742008A28B8 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CE34B6852C5334110052AA0E /* AudioDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDeviceView.swift; sourceTree = "<group>"; };
+		CE34B6872C53341F0052AA0E /* AudioDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDeviceViewModel.swift; sourceTree = "<group>"; };
+		CE34B68C2C5347F30052AA0E /* PlanetAudioDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetAudioDeviceService.swift; sourceTree = "<group>"; };
+		CE34B68E2C5366B90052AA0E /* PlanetVideoDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetVideoDeviceService.swift; sourceTree = "<group>"; };
+		CE34EC3E2C6F1DFC00C9A623 /* DeviceAuthorizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAuthorizationService.swift; sourceTree = "<group>"; };
+		CE34EC4A2C744A6900C9A623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		CE34EC4C2C744A7400C9A623 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ko; path = ko.lproj/Info.plist; sourceTree = "<group>"; };
+		CE34EC502C744B2D00C9A623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		CE401F132C574FAF00C48722 /* VideoDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDeviceView.swift; sourceTree = "<group>"; };
+		CE401F152C574FD900C48722 /* VideoDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDeviceViewModel.swift; sourceTree = "<group>"; };
+		CE45B73E2C50E6E200779054 /* CallEndStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallEndStatusView.swift; sourceTree = "<group>"; };
+		CE4C3DB42C4FB450009DD112 /* MockSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSettingsService.swift; sourceTree = "<group>"; };
+		CE4C3DB62C4FB45F009DD112 /* PlanetSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSettingsService.swift; sourceTree = "<group>"; };
+		CE4F1CD22C1BDB960087DEEF /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		CE4F1CE02C22C22C0087DEEF /* DemoLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLabelStyle.swift; sourceTree = "<group>"; };
+		CE52D0C12C6AFB6C0083C8A8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Localizable.strings; sourceTree = "<group>"; };
+		CE52D0C42C6AFB6C0083C8A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		CE52D0CD2C6B58FB0083C8A8 /* LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		CE52D0D02C6C66790083C8A8 /* PeerProfileMobileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerProfileMobileView.swift; sourceTree = "<group>"; };
+		CE5907682C773F69005B3200 /* CallStartFailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallStartFailureView.swift; sourceTree = "<group>"; };
+		CE5931202C5CAA10004DC22B /* ElapsedTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeViewModel.swift; sourceTree = "<group>"; };
+		CE5931222C5CAA34004DC22B /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		CE614D152B9968E90049F37D /* LINE Planet Call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LINE Planet Call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE614D182B9968E90049F37D /* planet_kit_demoapp_appleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planet_kit_demoapp_appleApp.swift; sourceTree = "<group>"; };
+		CE614D1C2B9968EB0049F37D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE614D1E2B9968EB0049F37D /* planet_kit_demoapp_apple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = planet_kit_demoapp_apple.entitlements; sourceTree = "<group>"; };
+		CE614D202B9968EB0049F37D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE614D262B9968EB0049F37D /* planet-kit-demoapp-appleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "planet-kit-demoapp-appleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE614D2A2B9968EB0049F37D /* planet_kit_demoapp_appleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planet_kit_demoapp_appleTests.swift; sourceTree = "<group>"; };
+		CE614D302B9968EB0049F37D /* planet-kit-demoapp-appleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "planet-kit-demoapp-appleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE614D342B9968EB0049F37D /* planet_kit_demoapp_appleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planet_kit_demoapp_appleUITests.swift; sourceTree = "<group>"; };
+		CE614D362B9968EB0049F37D /* planet_kit_demoapp_appleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planet_kit_demoapp_appleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE614D432B996DE10049F37D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CE614D452B99AFFB0049F37D /* DemoColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoColor.swift; sourceTree = "<group>"; };
+		CE614D472B99B00F0049F37D /* DemoFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFont.swift; sourceTree = "<group>"; };
+		CE7614862C69F02400CCBEDF /* GroupCallPreviewMobileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCallPreviewMobileView.swift; sourceTree = "<group>"; };
+		CE7614892C69F3F000CCBEDF /* CameraPreviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewService.swift; sourceTree = "<group>"; };
+		CE7614902C6A132D00CCBEDF /* GroupCallPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCallPreviewViewModel.swift; sourceTree = "<group>"; };
+		CE7614922C6A137100CCBEDF /* GroupCallPreviewDesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCallPreviewDesktopView.swift; sourceTree = "<group>"; };
+		CE7728942C631C240026B4FB /* MuteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteButtonView.swift; sourceTree = "<group>"; };
+		CE7728982C631C930026B4FB /* PauseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseButtonView.swift; sourceTree = "<group>"; };
+		CE940AE02C87060C00D7EECF /* PlanetAppServerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetAppServerRepository.swift; sourceTree = "<group>"; };
+		CEB4F6222C564F9A007991B4 /* CameraPreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewViewModel.swift; sourceTree = "<group>"; };
+		CEBF86952C91993800763446 /* AppLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
+		CED687042C9C088F00AD87AD /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		CEDC02E52C4F9B8200CFF37D /* PeerMuteIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerMuteIconView.swift; sourceTree = "<group>"; };
+		CEDE920B2C909E5900BA1D0C /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		CEDF1DA82C3D12560036F91F /* PushKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushKitService.swift; sourceTree = "<group>"; };
+		CEDF1DAA2C3D12610036F91F /* CallKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitService.swift; sourceTree = "<group>"; };
+		CEDF1DB52C3E4EBE0036F91F /* CallUseCasesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallUseCasesViewModel.swift; sourceTree = "<group>"; };
+		CEDF1DB72C3E801D0036F91F /* MakeCallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallViewModel.swift; sourceTree = "<group>"; };
+		CEDF1E112C3FA3410036F91F /* LINE Planet Call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LINE Planet Call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEDD7482C5396E7009EA17C /* LogBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogBrowser.swift; sourceTree = "<group>"; };
+		CEEDD7492C5396E7009EA17C /* MockMyMediaStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMyMediaStatus.swift; sourceTree = "<group>"; };
+		CEEDD74A2C5396E7009EA17C /* PlanetMyMediaStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetMyMediaStatus.swift; sourceTree = "<group>"; };
+		CEEDD74B2C5396E7009EA17C /* MyMediaStatusObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMediaStatusObservable.swift; sourceTree = "<group>"; };
+		CEEDD74C2C5396E7009EA17C /* VideoStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoStream.swift; sourceTree = "<group>"; };
+		CEEDD7562C539716009EA17C /* GroupCallMyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallMyView.swift; sourceTree = "<group>"; };
+		CEEDD7572C539716009EA17C /* GroupCallMyViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallMyViewViewModel.swift; sourceTree = "<group>"; };
+		CEEDD7592C539716009EA17C /* GroupCallToolBarDesktopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallToolBarDesktopView.swift; sourceTree = "<group>"; };
+		CEEDD75A2C539716009EA17C /* GroupCallToolBarControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallToolBarControl.swift; sourceTree = "<group>"; };
+		CEEDD75B2C539716009EA17C /* GroupCallToolBarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallToolBarViewModel.swift; sourceTree = "<group>"; };
+		CEEDD75C2C539716009EA17C /* GroupCallToolBarMobileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallToolBarMobileView.swift; sourceTree = "<group>"; };
+		CEEDD75E2C539716009EA17C /* GroupCallPeerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallPeerView.swift; sourceTree = "<group>"; };
+		CEEDD75F2C539716009EA17C /* PlanetGroupCallPeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetGroupCallPeer.swift; sourceTree = "<group>"; };
+		CEEDD7602C539716009EA17C /* GroupCallPeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallPeer.swift; sourceTree = "<group>"; };
+		CEEDD7612C539716009EA17C /* MockGroupCallPeer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockGroupCallPeer.swift; sourceTree = "<group>"; };
+		CEEDD7622C539716009EA17C /* GroupCallPeerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallPeerViewModel.swift; sourceTree = "<group>"; };
+		CEEDD7632C539716009EA17C /* GroupCallJoinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallJoinView.swift; sourceTree = "<group>"; };
+		CEEDD7652C539716009EA17C /* GroupCallViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallViewModel.swift; sourceTree = "<group>"; };
+		CEEDD7662C539716009EA17C /* GroupCallDesktopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallDesktopView.swift; sourceTree = "<group>"; };
+		CEEDD7672C539716009EA17C /* GroupCallMobileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallMobileView.swift; sourceTree = "<group>"; };
+		CEEDD7682C539716009EA17C /* PlanetGroupCallService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetGroupCallService.swift; sourceTree = "<group>"; };
+		CEEDD7692C539716009EA17C /* GroupCallService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallService.swift; sourceTree = "<group>"; };
+		CEEDD76A2C539716009EA17C /* MockGroupCallService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockGroupCallService.swift; sourceTree = "<group>"; };
+		CEEDD76C2C539716009EA17C /* GroupCallUseCasesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallUseCasesViewModel.swift; sourceTree = "<group>"; };
+		CEEDD76D2C539716009EA17C /* GroupCallUseCasesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallUseCasesView.swift; sourceTree = "<group>"; };
+		CEEDD76E2C539716009EA17C /* GroupCallJoinViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCallJoinViewModel.swift; sourceTree = "<group>"; };
+		CEF2DAC62C8A99F800ADF222 /* SettingsErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsErrorView.swift; sourceTree = "<group>"; };
+		CEF4148C2C4796D70080BFE3 /* AudioCallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCallViewModel.swift; sourceTree = "<group>"; };
+		CEF4148F2C48AE260080BFE3 /* IncomingCallDesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCallDesktopView.swift; sourceTree = "<group>"; };
+		CEF414992C48FA150080BFE3 /* AudioCallDesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCallDesktopView.swift; sourceTree = "<group>"; };
+		CEF4149B2C48FAA30080BFE3 /* CallCommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCommonView.swift; sourceTree = "<group>"; };
+		CEF4149D2C49F6090080BFE3 /* VideoCallMobileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallMobileView.swift; sourceTree = "<group>"; };
+		CEF4149F2C49F6420080BFE3 /* VideoCallDesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallDesktopView.swift; sourceTree = "<group>"; };
+		CEF414A12C49F8A70080BFE3 /* VideoCallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallViewModel.swift; sourceTree = "<group>"; };
+		CEF414A32C49F9030080BFE3 /* PreviewCallDesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCallDesktopView.swift; sourceTree = "<group>"; };
+		CEF414A52C49F9200080BFE3 /* PreviewCallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCallViewModel.swift; sourceTree = "<group>"; };
+		CEF414A92C49FCB90080BFE3 /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
+		CEF414B52C4E41980080BFE3 /* PlanetKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlanetKit+Extension.swift"; sourceTree = "<group>"; };
+		CEF7AC6D2C913EE500E067CF /* ToastMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessageView.swift; sourceTree = "<group>"; };
+		CEF7F3D62C51DE2800B2520C /* LongPollingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPollingService.swift; sourceTree = "<group>"; };
+		CEF7F3DA2C51DE9900B2520C /* PushService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushService.swift; sourceTree = "<group>"; };
+		CEF7F3DC2C51DEE200B2520C /* MockPushService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPushService.swift; sourceTree = "<group>"; };
+		CEFBADE62C58901500826502 /* DemoButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoButtonStyle.swift; sourceTree = "<group>"; };
+		CEFBADE82C58903B00826502 /* AppServerRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppServerRepository.swift; sourceTree = "<group>"; };
+		CEFBADEA2C58905700826502 /* AudioCallMobileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCallMobileView.swift; sourceTree = "<group>"; };
+		CEFBADEE2C58909200826502 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CEFBADF02C5890A600826502 /* CallService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallService.swift; sourceTree = "<group>"; };
+		CEFBADF22C5890B600826502 /* MakeCallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeCallView.swift; sourceTree = "<group>"; };
+		CEFBADF42C5890CC00826502 /* SettingsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		CEFBADF62C5890E000826502 /* DemoViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViews.swift; sourceTree = "<group>"; };
+		CEFBADF82C58910200826502 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		CEFBADFA2C58911D00826502 /* CallUseCasesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallUseCasesView.swift; sourceTree = "<group>"; };
+		CEFBAE172C58A6B700826502 /* AppEnvironmentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironmentManager.swift; sourceTree = "<group>"; };
+		CEFCBEE12C8FF7760060BA6E /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		CEFF2D372C7DE332002F9E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = "Base.lproj/DemoApp-iOS-Info.plist"; sourceTree = "<group>"; };
+		CEFF2D3A2C7DE340002F9E1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/DemoApp-iOS-Info.plist"; sourceTree = "<group>"; };
+		CEFF2D3B2C7DE342002F9E1B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ko; path = "ko.lproj/DemoApp-iOS-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE614D122B9968E90049F37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE26BEFC2C463F1300E24D81 /* CoreTelephony.framework in Frameworks */,
+				CE4F1CD72C1BDC120087DEEF /* PlanetKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE614D232B9968EB0049F37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE614D2D2B9968EB0049F37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF1E082C3FA3410036F91F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE26BF0E2C46572D00E24D81 /* CoreTelephony.framework in Frameworks */,
+				CE26BF0B2C46570000E24D81 /* CallKit.framework in Frameworks */,
+				CE8B35EF2C58A82D00FBF54D /* PlanetKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE07D7DC2C5B933500BC17A3 /* CallKitService */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF1DAA2C3D12610036F91F /* CallKitService.swift */,
+			);
+			path = CallKitService;
+			sourceTree = "<group>";
+		};
+		CE193BB62C52360C00283345 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE7614882C69F3C900CCBEDF /* Preview */,
+				CE34B6912C537B2F0052AA0E /* Device */,
+				CE193BB82C52360C00283345 /* Camera.swift */,
+				CEEDD7482C5396E7009EA17C /* LogBrowser.swift */,
+				CEEDD7492C5396E7009EA17C /* MockMyMediaStatus.swift */,
+				CEEDD74B2C5396E7009EA17C /* MyMediaStatusObservable.swift */,
+				CE1F068A2C5CE42E00A4E981 /* PlanetConstant.swift */,
+				CEFCBEE12C8FF7760060BA6E /* AppConstant.swift */,
+				CEFBAE172C58A6B700826502 /* AppEnvironmentManager.swift */,
+				CEBF86952C91993800763446 /* AppLog.swift */,
+				CEEDD74A2C5396E7009EA17C /* PlanetMyMediaStatus.swift */,
+				CE193BB72C52360C00283345 /* UserAccount.swift */,
+				CEEDD74C2C5396E7009EA17C /* VideoStream.swift */,
+				CE193BB92C52360C00283345 /* VideoView.swift */,
+				CEDE920B2C909E5900BA1D0C /* ToastView.swift */,
+				CEF7AC6D2C913EE500E067CF /* ToastMessageView.swift */,
+				CED687042C9C088F00AD87AD /* View+Extension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE26BEF92C463F0B00E24D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE26BF0C2C46570600E24D81 /* PushKit.framework */,
+				CE26BF0A2C46570000E24D81 /* CallKit.framework */,
+				CE26BEFA2C463F0B00E24D81 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE26BEFD2C46407C00E24D81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF2D362C7DE332002F9E1B /* DemoApp-iOS-Info.plist */,
+				CE34EC4B2C744A6900C9A623 /* Info.plist */,
+				CE26BEFF2C46407C00E24D81 /* 48k-End.wav */,
+				CE26BF002C46407C00E24D81 /* 48k-Hold.wav */,
+				CE26BEFE2C46407C00E24D81 /* 48k-Ring.wav */,
+				CE26BF012C46407C00E24D81 /* 48k-Ringback.wav */,
+				CE52D0C22C6AFB6C0083C8A8 /* en.lproj */,
+				CE52D0BF2C6AFB6C0083C8A8 /* ko.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE312E362C2A871A008A28B8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CE614D432B996DE10049F37D /* MainView.swift */,
+				CE312E372C2A8742008A28B8 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CE34B6902C537AF70052AA0E /* CallService */ = {
+			isa = PBXGroup;
+			children = (
+				CE07D7DC2C5B933500BC17A3 /* CallKitService */,
+				CEFBADF02C5890A600826502 /* CallService.swift */,
+				CE0B365F2C5B917C00FEEE82 /* PlanetCallService.swift */,
+				CE07D7DA2C5B932800BC17A3 /* MockCallService.swift */,
+			);
+			path = CallService;
+			sourceTree = "<group>";
+		};
+		CE34B6912C537B2F0052AA0E /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F068C2C60630B00A4E981 /* AudioDeviceService.swift */,
+				CE34B68C2C5347F30052AA0E /* PlanetAudioDeviceService.swift */,
+				CE1F06942C60651000A4E981 /* MockAudioDeviceService.swift */,
+				CE1F068E2C60635000A4E981 /* VideoDeviceService.swift */,
+				CE34B68E2C5366B90052AA0E /* PlanetVideoDeviceService.swift */,
+				CE1F06912C60636600A4E981 /* MockVideoDeviceService.swift */,
+				CE34B6852C5334110052AA0E /* AudioDeviceView.swift */,
+				CE34B6872C53341F0052AA0E /* AudioDeviceViewModel.swift */,
+				CE401F132C574FAF00C48722 /* VideoDeviceView.swift */,
+				CE401F152C574FD900C48722 /* VideoDeviceViewModel.swift */,
+				CE34EC3E2C6F1DFC00C9A623 /* DeviceAuthorizationService.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		CE4F1CEC2C22C9730087DEEF /* 1-to-1 Call */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B8B502CAD0ABB00B059B6 /* Call */,
+				CE6B8B4C2CAD0A6300B059B6 /* Common */,
+				CE6B8B4F2CAD0A9700B059B6 /* Incoming */,
+				CE6B8B4E2CAD0A8500B059B6 /* Make */,
+				CE6B8B4D2CAD0A6E00B059B6 /* Preview */,
+				CE6B8B4B2CAD0A5800B059B6 /* Use Case */,
+			);
+			path = "1-to-1 Call";
+			sourceTree = "<group>";
+		};
+		CE52D0BF2C6AFB6C0083C8A8 /* ko.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CE52D0C02C6AFB6C0083C8A8 /* Localizable.strings */,
+			);
+			path = ko.lproj;
+			sourceTree = "<group>";
+		};
+		CE52D0C22C6AFB6C0083C8A8 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CE52D0C32C6AFB6C0083C8A8 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		CE59311D2C5C8158004DC22B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBADE82C58903B00826502 /* AppServerRepository.swift */,
+				CEFBADF42C5890CC00826502 /* SettingsService.swift */,
+				CE4C3DB62C4FB45F009DD112 /* PlanetSettingsService.swift */,
+				CE4C3DB42C4FB450009DD112 /* MockSettingsService.swift */,
+				CE940AE02C87060C00D7EECF /* PlanetAppServerRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE614D0C2B9968E90049F37D = {
+			isa = PBXGroup;
+			children = (
+				CE614D172B9968E90049F37D /* planet-kit-demoapp-apple */,
+				CE614D292B9968EB0049F37D /* planet-kit-demoapp-appleTests */,
+				CE614D332B9968EB0049F37D /* planet-kit-demoapp-appleUITests */,
+				CE614D162B9968E90049F37D /* Products */,
+				CE26BEF92C463F0B00E24D81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE614D162B9968E90049F37D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE614D152B9968E90049F37D /* LINE Planet Call.app */,
+				CE614D262B9968EB0049F37D /* planet-kit-demoapp-appleTests.xctest */,
+				CE614D302B9968EB0049F37D /* planet-kit-demoapp-appleUITests.xctest */,
+				CEDF1E112C3FA3410036F91F /* LINE Planet Call.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE614D172B9968E90049F37D /* planet-kit-demoapp-apple */ = {
+			isa = PBXGroup;
+			children = (
+				CE614D1E2B9968EB0049F37D /* planet_kit_demoapp_apple.entitlements */,
+				CEFBADE62C58901500826502 /* DemoButtonStyle.swift */,
+				CE614D452B99AFFB0049F37D /* DemoColor.swift */,
+				CE614D472B99B00F0049F37D /* DemoFont.swift */,
+				CE4F1CE02C22C22C0087DEEF /* DemoLabelStyle.swift */,
+				CEFBADF62C5890E000826502 /* DemoViews.swift */,
+				CE52D0CD2C6B58FB0083C8A8 /* LocalizedString.swift */,
+				CE614D182B9968E90049F37D /* planet_kit_demoapp_appleApp.swift */,
+				CEF414B52C4E41980080BFE3 /* PlanetKit+Extension.swift */,
+				CE614D1C2B9968EB0049F37D /* Assets.xcassets */,
+				CE4F1CEC2C22C9730087DEEF /* 1-to-1 Call */,
+				CE193BB62C52360C00283345 /* Common */,
+				CEEDD7542C539716009EA17C /* Group Call */,
+				CE312E362C2A871A008A28B8 /* Main */,
+				CE614D1F2B9968EB0049F37D /* Preview Content */,
+				CE26BEFD2C46407C00E24D81 /* Resources */,
+				CEFBADE22C588F9A00826502 /* Settings */,
+			);
+			path = "planet-kit-demoapp-apple";
+			sourceTree = "<group>";
+		};
+		CE614D1F2B9968EB0049F37D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE614D202B9968EB0049F37D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE614D292B9968EB0049F37D /* planet-kit-demoapp-appleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE614D2A2B9968EB0049F37D /* planet_kit_demoapp_appleTests.swift */,
+			);
+			path = "planet-kit-demoapp-appleTests";
+			sourceTree = "<group>";
+		};
+		CE614D332B9968EB0049F37D /* planet-kit-demoapp-appleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE614D342B9968EB0049F37D /* planet_kit_demoapp_appleUITests.swift */,
+				CE614D362B9968EB0049F37D /* planet_kit_demoapp_appleUITestsLaunchTests.swift */,
+			);
+			path = "planet-kit-demoapp-appleUITests";
+			sourceTree = "<group>";
+		};
+		CE6B8B4B2CAD0A5800B059B6 /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBADFA2C58911D00826502 /* CallUseCasesView.swift */,
+				CEDF1DB52C3E4EBE0036F91F /* CallUseCasesViewModel.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		CE6B8B4C2CAD0A6300B059B6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4149B2C48FAA30080BFE3 /* CallCommonView.swift */,
+				CE45B73E2C50E6E200779054 /* CallEndStatusView.swift */,
+				CE5907682C773F69005B3200 /* CallStartFailureView.swift */,
+				CE7728942C631C240026B4FB /* MuteButtonView.swift */,
+				CE7728982C631C930026B4FB /* PauseButtonView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE6B8B4D2CAD0A6E00B059B6 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				CEF414A32C49F9030080BFE3 /* PreviewCallDesktopView.swift */,
+				CEF414A52C49F9200080BFE3 /* PreviewCallViewModel.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		CE6B8B4E2CAD0A8500B059B6 /* Make */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBADF22C5890B600826502 /* MakeCallView.swift */,
+				CEDF1DB72C3E801D0036F91F /* MakeCallViewModel.swift */,
+			);
+			path = Make;
+			sourceTree = "<group>";
+		};
+		CE6B8B4F2CAD0A9700B059B6 /* Incoming */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4148F2C48AE260080BFE3 /* IncomingCallDesktopView.swift */,
+			);
+			path = Incoming;
+			sourceTree = "<group>";
+		};
+		CE6B8B502CAD0ABB00B059B6 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7F3D92C51DE5000B2520C /* Model */,
+				CE6B8B512CAD0B0500B059B6 /* Common */,
+				CEF414992C48FA150080BFE3 /* AudioCallDesktopView.swift */,
+				CEFBADEA2C58905700826502 /* AudioCallMobileView.swift */,
+				CEF4148C2C4796D70080BFE3 /* AudioCallViewModel.swift */,
+				CEF414A92C49FCB90080BFE3 /* CallViewModel.swift */,
+				CEF4149F2C49F6420080BFE3 /* VideoCallDesktopView.swift */,
+				CEF4149D2C49F6090080BFE3 /* VideoCallMobileView.swift */,
+				CEF414A12C49F8A70080BFE3 /* VideoCallViewModel.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		CE6B8B512CAD0B0500B059B6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE5931222C5CAA34004DC22B /* ElapsedTimeView.swift */,
+				CE5931202C5CAA10004DC22B /* ElapsedTimeViewModel.swift */,
+				CE0B365A2C5B7B9B00FEEE82 /* MyMuteIconView.swift */,
+				CE1F06992C6079DC00A4E981 /* MyProfileDesktopView.swift */,
+				CEDC02E52C4F9B8200CFF37D /* PeerMuteIconView.swift */,
+				CE1F069C2C607A0D00A4E981 /* PeerProfileDesktopView.swift */,
+				CE52D0D02C6C66790083C8A8 /* PeerProfileMobileView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE7614852C69EFFA00CCBEDF /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				CE7614862C69F02400CCBEDF /* GroupCallPreviewMobileView.swift */,
+				CE7614902C6A132D00CCBEDF /* GroupCallPreviewViewModel.swift */,
+				CE7614922C6A137100CCBEDF /* GroupCallPreviewDesktopView.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		CE7614882C69F3C900CCBEDF /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				CE4F1CD22C1BDB960087DEEF /* CameraPreviewView.swift */,
+				CEB4F6222C564F9A007991B4 /* CameraPreviewViewModel.swift */,
+				CE7614892C69F3F000CCBEDF /* CameraPreviewService.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		CED687062C9C712100AD87AD /* Join */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD76E2C539716009EA17C /* GroupCallJoinViewModel.swift */,
+				CEEDD7632C539716009EA17C /* GroupCallJoinView.swift */,
+			);
+			path = Join;
+			sourceTree = "<group>";
+		};
+		CEEDD7542C539716009EA17C /* Group Call */ = {
+			isa = PBXGroup;
+			children = (
+				CED687062C9C712100AD87AD /* Join */,
+				CE7614852C69EFFA00CCBEDF /* Preview */,
+				CEEDD7552C539716009EA17C /* MyView */,
+				CEEDD7582C539716009EA17C /* Toolbar */,
+				CEEDD75D2C539716009EA17C /* Peer */,
+				CEEDD7642C539716009EA17C /* Call */,
+				CEEDD76B2C539716009EA17C /* Use Case */,
+				CE04ED1D2CA32BF000CAD37D /* GroupCallInfoView.swift */,
+			);
+			path = "Group Call";
+			sourceTree = "<group>";
+		};
+		CEEDD7552C539716009EA17C /* MyView */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD7562C539716009EA17C /* GroupCallMyView.swift */,
+				CEEDD7572C539716009EA17C /* GroupCallMyViewViewModel.swift */,
+			);
+			path = MyView;
+			sourceTree = "<group>";
+		};
+		CEEDD7582C539716009EA17C /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD7592C539716009EA17C /* GroupCallToolBarDesktopView.swift */,
+				CEEDD75A2C539716009EA17C /* GroupCallToolBarControl.swift */,
+				CEEDD75B2C539716009EA17C /* GroupCallToolBarViewModel.swift */,
+				CEEDD75C2C539716009EA17C /* GroupCallToolBarMobileView.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		CEEDD75D2C539716009EA17C /* Peer */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD75E2C539716009EA17C /* GroupCallPeerView.swift */,
+				CEEDD75F2C539716009EA17C /* PlanetGroupCallPeer.swift */,
+				CEEDD7602C539716009EA17C /* GroupCallPeer.swift */,
+				CEEDD7612C539716009EA17C /* MockGroupCallPeer.swift */,
+				CEEDD7622C539716009EA17C /* GroupCallPeerViewModel.swift */,
+			);
+			path = Peer;
+			sourceTree = "<group>";
+		};
+		CEEDD7642C539716009EA17C /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD7652C539716009EA17C /* GroupCallViewModel.swift */,
+				CEEDD7662C539716009EA17C /* GroupCallDesktopView.swift */,
+				CEEDD7672C539716009EA17C /* GroupCallMobileView.swift */,
+				CEEDD7682C539716009EA17C /* PlanetGroupCallService.swift */,
+				CEEDD7692C539716009EA17C /* GroupCallService.swift */,
+				CEEDD76A2C539716009EA17C /* MockGroupCallService.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		CEEDD76B2C539716009EA17C /* Use Case */ = {
+			isa = PBXGroup;
+			children = (
+				CEEDD76C2C539716009EA17C /* GroupCallUseCasesViewModel.swift */,
+				CEEDD76D2C539716009EA17C /* GroupCallUseCasesView.swift */,
+			);
+			path = "Use Case";
+			sourceTree = "<group>";
+		};
+		CEF7F3D82C51DE3400B2520C /* PushService */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7F3DA2C51DE9900B2520C /* PushService.swift */,
+				CEF7F3DC2C51DEE200B2520C /* MockPushService.swift */,
+				CEDF1DA82C3D12560036F91F /* PushKitService.swift */,
+				CEF7F3D62C51DE2800B2520C /* LongPollingService.swift */,
+			);
+			path = PushService;
+			sourceTree = "<group>";
+		};
+		CEF7F3D92C51DE5000B2520C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE34B6902C537AF70052AA0E /* CallService */,
+				CEF7F3D82C51DE3400B2520C /* PushService */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEFBADE22C588F9A00826502 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CE59311D2C5C8158004DC22B /* Model */,
+				CE312E2F2C298DDA008A28B8 /* SettingsTextFieldView.swift */,
+				CEFBADEE2C58909200826502 /* SettingsView.swift */,
+				CEFBADF82C58910200826502 /* SettingsViewModel.swift */,
+				CEF2DAC62C8A99F800ADF222 /* SettingsErrorView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE614D142B9968E90049F37D /* planet-kit-demoapp-apple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE614D3A2B9968EB0049F37D /* Build configuration list for PBXNativeTarget "planet-kit-demoapp-apple" */;
+			buildPhases = (
+				CE614D112B9968E90049F37D /* Sources */,
+				CE614D122B9968E90049F37D /* Frameworks */,
+				CE614D132B9968E90049F37D /* Resources */,
+				CE614D4C2B99BE6A0049F37D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "planet-kit-demoapp-apple";
+			packageProductDependencies = (
+				CE4F1CD62C1BDC120087DEEF /* PlanetKit */,
+			);
+			productName = "planet-kit-demoapp-apple";
+			productReference = CE614D152B9968E90049F37D /* LINE Planet Call.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE614D252B9968EB0049F37D /* planet-kit-demoapp-appleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE614D3D2B9968EB0049F37D /* Build configuration list for PBXNativeTarget "planet-kit-demoapp-appleTests" */;
+			buildPhases = (
+				CE614D222B9968EB0049F37D /* Sources */,
+				CE614D232B9968EB0049F37D /* Frameworks */,
+				CE614D242B9968EB0049F37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE614D282B9968EB0049F37D /* PBXTargetDependency */,
+			);
+			name = "planet-kit-demoapp-appleTests";
+			productName = "planet-kit-demoapp-appleTests";
+			productReference = CE614D262B9968EB0049F37D /* planet-kit-demoapp-appleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE614D2F2B9968EB0049F37D /* planet-kit-demoapp-appleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE614D402B9968EB0049F37D /* Build configuration list for PBXNativeTarget "planet-kit-demoapp-appleUITests" */;
+			buildPhases = (
+				CE614D2C2B9968EB0049F37D /* Sources */,
+				CE614D2D2B9968EB0049F37D /* Frameworks */,
+				CE614D2E2B9968EB0049F37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE614D322B9968EB0049F37D /* PBXTargetDependency */,
+			);
+			name = "planet-kit-demoapp-appleUITests";
+			productName = "planet-kit-demoapp-appleUITests";
+			productReference = CE614D302B9968EB0049F37D /* planet-kit-demoapp-appleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CEDF1DEA2C3FA3410036F91F /* DemoApp-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDF1E0E2C3FA3410036F91F /* Build configuration list for PBXNativeTarget "DemoApp-iOS" */;
+			buildPhases = (
+				CEDF1DED2C3FA3410036F91F /* Sources */,
+				CEDF1E082C3FA3410036F91F /* Frameworks */,
+				CEDF1E0A2C3FA3410036F91F /* Resources */,
+				CEDF1E0D2C3FA3410036F91F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoApp-iOS";
+			packageProductDependencies = (
+				CE8B35EE2C58A82D00FBF54D /* PlanetKit */,
+			);
+			productName = "planet-kit-demoapp-apple";
+			productReference = CEDF1E112C3FA3410036F91F /* LINE Planet Call.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE614D0D2B9968E90049F37D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CE614D142B9968E90049F37D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CE614D252B9968EB0049F37D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CE614D142B9968E90049F37D;
+					};
+					CE614D2F2B9968EB0049F37D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CE614D142B9968E90049F37D;
+					};
+				};
+			};
+			buildConfigurationList = CE614D102B9968E90049F37D /* Build configuration list for PBXProject "planet-kit-demoapp-apple" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = CE614D0C2B9968E90049F37D;
+			packageReferences = (
+				CE4F1CD52C1BDC120087DEEF /* XCRemoteSwiftPackageReference "planet-kit-apple" */,
+			);
+			productRefGroup = CE614D162B9968E90049F37D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE614D142B9968E90049F37D /* planet-kit-demoapp-apple */,
+				CE614D252B9968EB0049F37D /* planet-kit-demoapp-appleTests */,
+				CE614D2F2B9968EB0049F37D /* planet-kit-demoapp-appleUITests */,
+				CEDF1DEA2C3FA3410036F91F /* DemoApp-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE614D132B9968E90049F37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE26BF022C46407C00E24D81 /* 48k-Ring.wav in Resources */,
+				CE26BF062C46407C00E24D81 /* 48k-Hold.wav in Resources */,
+				CE34EC522C744BEE00C9A623 /* Info.plist in Resources */,
+				CE614D212B9968EB0049F37D /* Preview Assets.xcassets in Resources */,
+				CE52D0C52C6AFB6C0083C8A8 /* Localizable.strings in Resources */,
+				CE26BF042C46407C00E24D81 /* 48k-End.wav in Resources */,
+				CE52D0C72C6AFB6C0083C8A8 /* Localizable.strings in Resources */,
+				CE614D1D2B9968EB0049F37D /* Assets.xcassets in Resources */,
+				CE26BF082C46407C00E24D81 /* 48k-Ringback.wav in Resources */,
+				CEFF2D382C7DE332002F9E1B /* DemoApp-iOS-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE614D242B9968EB0049F37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE614D2E2B9968EB0049F37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF1E0A2C3FA3410036F91F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE26BF032C46407C00E24D81 /* 48k-Ring.wav in Resources */,
+				CEFF2D392C7DE338002F9E1B /* DemoApp-iOS-Info.plist in Resources */,
+				CE26BF072C46407C00E24D81 /* 48k-Hold.wav in Resources */,
+				CEDF1E0B2C3FA3410036F91F /* Preview Assets.xcassets in Resources */,
+				CE52D0C62C6AFB6C0083C8A8 /* Localizable.strings in Resources */,
+				CE26BF052C46407C00E24D81 /* 48k-End.wav in Resources */,
+				CE52D0C82C6AFB6C0083C8A8 /* Localizable.strings in Resources */,
+				CEDF1E0C2C3FA3410036F91F /* Assets.xcassets in Resources */,
+				CE26BF092C46407C00E24D81 /* 48k-Ringback.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE614D4C2B99BE6A0049F37D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n";
+		};
+		CEDF1E0D2C3FA3410036F91F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE614D112B9968E90049F37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDD77E2C539716009EA17C /* PlanetGroupCallService.swift in Sources */,
+				CEEDD74D2C5396E7009EA17C /* LogBrowser.swift in Sources */,
+				CE45B73F2C50E6E200779054 /* CallEndStatusView.swift in Sources */,
+				CEEDD7732C539716009EA17C /* GroupCallToolBarViewModel.swift in Sources */,
+				CE4F1CD42C1BDB960087DEEF /* CameraPreviewView.swift in Sources */,
+				CEF7F3DB2C51DE9900B2520C /* PushService.swift in Sources */,
+				CEFBADF32C5890B600826502 /* MakeCallView.swift in Sources */,
+				CEF4149E2C49F6090080BFE3 /* VideoCallMobileView.swift in Sources */,
+				CE1F069D2C607A0D00A4E981 /* PeerProfileDesktopView.swift in Sources */,
+				CE5931212C5CAA10004DC22B /* ElapsedTimeViewModel.swift in Sources */,
+				CEF414A42C49F9030080BFE3 /* PreviewCallDesktopView.swift in Sources */,
+				CEFBADF72C5890E000826502 /* DemoViews.swift in Sources */,
+				CEF2DAC72C8A99F800ADF222 /* SettingsErrorView.swift in Sources */,
+				CEEDD7812C539716009EA17C /* GroupCallUseCasesViewModel.swift in Sources */,
+				CE07D7DB2C5B932800BC17A3 /* MockCallService.swift in Sources */,
+				CE1F068B2C5CE42E00A4E981 /* PlanetConstant.swift in Sources */,
+				CED687052C9C088F00AD87AD /* View+Extension.swift in Sources */,
+				CEDF1DB82C3E801D0036F91F /* MakeCallViewModel.swift in Sources */,
+				CEEDD7722C539716009EA17C /* GroupCallToolBarControl.swift in Sources */,
+				CEEDD7712C539716009EA17C /* GroupCallToolBarDesktopView.swift in Sources */,
+				CE4F1CE12C22C22C0087DEEF /* DemoLabelStyle.swift in Sources */,
+				CE401F142C574FAF00C48722 /* VideoDeviceView.swift in Sources */,
+				CEEDD74E2C5396E7009EA17C /* MockMyMediaStatus.swift in Sources */,
+				CEEDD7742C539716009EA17C /* GroupCallToolBarMobileView.swift in Sources */,
+				CE7614872C69F02400CCBEDF /* GroupCallPreviewMobileView.swift in Sources */,
+				CE4C3DB72C4FB45F009DD112 /* PlanetSettingsService.swift in Sources */,
+				CEEDD7792C539716009EA17C /* GroupCallPeerViewModel.swift in Sources */,
+				CEFBADEF2C58909200826502 /* SettingsView.swift in Sources */,
+				CEFBADE92C58903B00826502 /* AppServerRepository.swift in Sources */,
+				CEEDD77A2C539716009EA17C /* GroupCallJoinView.swift in Sources */,
+				CE5931232C5CAA34004DC22B /* ElapsedTimeView.swift in Sources */,
+				CEEDD77D2C539716009EA17C /* GroupCallMobileView.swift in Sources */,
+				CE1F068D2C60630B00A4E981 /* AudioDeviceService.swift in Sources */,
+				CEEDD77B2C539716009EA17C /* GroupCallViewModel.swift in Sources */,
+				CEDF1DB62C3E4EBE0036F91F /* CallUseCasesViewModel.swift in Sources */,
+				CEEDD7802C539716009EA17C /* MockGroupCallService.swift in Sources */,
+				CE312E332C298DDA008A28B8 /* SettingsTextFieldView.swift in Sources */,
+				CE193BBE2C52360C00283345 /* VideoView.swift in Sources */,
+				CE1F06922C60636600A4E981 /* MockVideoDeviceService.swift in Sources */,
+				CE940AE12C87060C00D7EECF /* PlanetAppServerRepository.swift in Sources */,
+				CEEDD7772C539716009EA17C /* GroupCallPeer.swift in Sources */,
+				CE7728992C631C930026B4FB /* PauseButtonView.swift in Sources */,
+				CEF414902C48AE260080BFE3 /* IncomingCallDesktopView.swift in Sources */,
+				CEF7F3D72C51DE2800B2520C /* LongPollingService.swift in Sources */,
+				CE34B6882C53341F0052AA0E /* AudioDeviceViewModel.swift in Sources */,
+				CEF4149A2C48FA150080BFE3 /* AudioCallDesktopView.swift in Sources */,
+				CE76148A2C69F3F000CCBEDF /* CameraPreviewService.swift in Sources */,
+				CE614D442B996DE10049F37D /* MainView.swift in Sources */,
+				CEF4149C2C48FAA30080BFE3 /* CallCommonView.swift in Sources */,
+				CE34B68F2C5366B90052AA0E /* PlanetVideoDeviceService.swift in Sources */,
+				CE34B68D2C5347F30052AA0E /* PlanetAudioDeviceService.swift in Sources */,
+				CE0B365B2C5B7B9B00FEEE82 /* MyMuteIconView.swift in Sources */,
+				CE52D0CE2C6B58FB0083C8A8 /* LocalizedString.swift in Sources */,
+				CE401F162C574FD900C48722 /* VideoDeviceViewModel.swift in Sources */,
+				CEF7AC6E2C913EE500E067CF /* ToastMessageView.swift in Sources */,
+				CE34EC3F2C6F1DFC00C9A623 /* DeviceAuthorizationService.swift in Sources */,
+				CE7614932C6A137100CCBEDF /* GroupCallPreviewDesktopView.swift in Sources */,
+				CEEDD76F2C539716009EA17C /* GroupCallMyView.swift in Sources */,
+				CEFBAE182C58A6B700826502 /* AppEnvironmentManager.swift in Sources */,
+				CEFBADEB2C58905700826502 /* AudioCallMobileView.swift in Sources */,
+				CEDE920C2C909E5900BA1D0C /* ToastView.swift in Sources */,
+				CEB4F6232C564F9A007991B4 /* CameraPreviewViewModel.swift in Sources */,
+				CEEDD7822C539716009EA17C /* GroupCallUseCasesView.swift in Sources */,
+				CEBF86962C91993800763446 /* AppLog.swift in Sources */,
+				CEDC02E62C4F9B8200CFF37D /* PeerMuteIconView.swift in Sources */,
+				CEDF1DAB2C3D12610036F91F /* CallKitService.swift in Sources */,
+				CEDF1DA92C3D12560036F91F /* PushKitService.swift in Sources */,
+				CE7614912C6A132D00CCBEDF /* GroupCallPreviewViewModel.swift in Sources */,
+				CEEDD7762C539716009EA17C /* PlanetGroupCallPeer.swift in Sources */,
+				CE52D0D12C6C66790083C8A8 /* PeerProfileMobileView.swift in Sources */,
+				CE614D462B99AFFB0049F37D /* DemoColor.swift in Sources */,
+				CEEDD7832C539716009EA17C /* GroupCallJoinViewModel.swift in Sources */,
+				CE312E382C2A8742008A28B8 /* MainViewModel.swift in Sources */,
+				CEFBADF92C58910200826502 /* SettingsViewModel.swift in Sources */,
+				CEEDD7752C539716009EA17C /* GroupCallPeerView.swift in Sources */,
+				CEFBADE72C58901500826502 /* DemoButtonStyle.swift in Sources */,
+				CEFBADF52C5890CC00826502 /* SettingsService.swift in Sources */,
+				CEFBADFB2C58911D00826502 /* CallUseCasesView.swift in Sources */,
+				CE193BBA2C52360C00283345 /* UserAccount.swift in Sources */,
+				CEF414A22C49F8A70080BFE3 /* VideoCallViewModel.swift in Sources */,
+				CE04ED1E2CA32BF000CAD37D /* GroupCallInfoView.swift in Sources */,
+				CE5907692C773F69005B3200 /* CallStartFailureView.swift in Sources */,
+				CE1F06952C60651000A4E981 /* MockAudioDeviceService.swift in Sources */,
+				CEEDD74F2C5396E7009EA17C /* PlanetMyMediaStatus.swift in Sources */,
+				CEF414AA2C49FCB90080BFE3 /* CallViewModel.swift in Sources */,
+				CEF7F3DD2C51DEE200B2520C /* MockPushService.swift in Sources */,
+				CE614D482B99B00F0049F37D /* DemoFont.swift in Sources */,
+				CE34B6862C5334110052AA0E /* AudioDeviceView.swift in Sources */,
+				CE614D192B9968E90049F37D /* planet_kit_demoapp_appleApp.swift in Sources */,
+				CEEDD7782C539716009EA17C /* MockGroupCallPeer.swift in Sources */,
+				CEEDD7702C539716009EA17C /* GroupCallMyViewViewModel.swift in Sources */,
+				CEFBADF12C5890A600826502 /* CallService.swift in Sources */,
+				CE4C3DB52C4FB450009DD112 /* MockSettingsService.swift in Sources */,
+				CEEDD77C2C539716009EA17C /* GroupCallDesktopView.swift in Sources */,
+				CEF414A62C49F9200080BFE3 /* PreviewCallViewModel.swift in Sources */,
+				CEEDD77F2C539716009EA17C /* GroupCallService.swift in Sources */,
+				CEF414A02C49F6420080BFE3 /* VideoCallDesktopView.swift in Sources */,
+				CE1F068F2C60635000A4E981 /* VideoDeviceService.swift in Sources */,
+				CEFCBEE22C8FF7760060BA6E /* AppConstant.swift in Sources */,
+				CEEDD7502C5396E7009EA17C /* MyMediaStatusObservable.swift in Sources */,
+				CEF414B62C4E41980080BFE3 /* PlanetKit+Extension.swift in Sources */,
+				CE193BBC2C52360C00283345 /* Camera.swift in Sources */,
+				CE0B36602C5B917C00FEEE82 /* PlanetCallService.swift in Sources */,
+				CE7728952C631C240026B4FB /* MuteButtonView.swift in Sources */,
+				CEF4148D2C4796D70080BFE3 /* AudioCallViewModel.swift in Sources */,
+				CE1F069A2C6079DC00A4E981 /* MyProfileDesktopView.swift in Sources */,
+				CEEDD7512C5396E7009EA17C /* VideoStream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE614D222B9968EB0049F37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE614D2B2B9968EB0049F37D /* planet_kit_demoapp_appleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE614D2C2B9968EB0049F37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE614D352B9968EB0049F37D /* planet_kit_demoapp_appleUITests.swift in Sources */,
+				CE614D372B9968EB0049F37D /* planet_kit_demoapp_appleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF1DED2C3FA3410036F91F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F06822C5CCFE600A4E981 /* AudioDeviceViewModel.swift in Sources */,
+				CEFBAE102C58A54700826502 /* CameraPreviewViewModel.swift in Sources */,
+				CE1F06832C5CCFE600A4E981 /* VideoDeviceView.swift in Sources */,
+				CEDF1DEE2C3FA3410036F91F /* CameraPreviewView.swift in Sources */,
+				CEDF1DEF2C3FA3410036F91F /* MakeCallViewModel.swift in Sources */,
+				CEFBADFC2C58A47C00826502 /* VideoStream.swift in Sources */,
+				CEDF1DF02C3FA3410036F91F /* DemoLabelStyle.swift in Sources */,
+				CE1F06852C5CCFE600A4E981 /* VideoDeviceViewModel.swift in Sources */,
+				CE193BBB2C52360C00283345 /* UserAccount.swift in Sources */,
+				CE1F06872C5CD02300A4E981 /* PreviewCallDesktopView.swift in Sources */,
+				CE641FB32C52242100A99115 /* MockPushService.swift in Sources */,
+				CE34EC402C6F1E1500C9A623 /* DeviceAuthorizationService.swift in Sources */,
+				CE52D0E42C6C83630083C8A8 /* PlanetGroupCallPeer.swift in Sources */,
+				CE52D0E12C6C835C0083C8A8 /* GroupCallToolBarDesktopView.swift in Sources */,
+				CEA9346E2C8AABDF003FB92D /* SettingsErrorView.swift in Sources */,
+				CEFBAE112C58A55300826502 /* GroupCallUseCasesViewModel.swift in Sources */,
+				CE641FB72C52243500A99115 /* CallViewModel.swift in Sources */,
+				CEDF1DF22C3FA3410036F91F /* CallUseCasesViewModel.swift in Sources */,
+				CE6B5F7D2C919173005C9715 /* MyMuteIconView.swift in Sources */,
+				CE641FB52C52243000A99115 /* CallCommonView.swift in Sources */,
+				CED465A02C633517004BD9DD /* PauseButtonView.swift in Sources */,
+				CEFBAE0B2C58A51E00826502 /* MakeCallView.swift in Sources */,
+				CEFBAE132C58A57200826502 /* AudioCallMobileView.swift in Sources */,
+				CE52D0D52C6C82FC0083C8A8 /* GroupCallPreviewViewModel.swift in Sources */,
+				CE52D0E52C6C83630083C8A8 /* MockGroupCallPeer.swift in Sources */,
+				CE52D0D32C6C82E20083C8A8 /* CameraPreviewService.swift in Sources */,
+				CEFBAE0D2C58A53900826502 /* PlanetSettingsService.swift in Sources */,
+				CE52D0D62C6C83050083C8A8 /* GroupCallMobileView.swift in Sources */,
+				CEFBAE002C58A48200826502 /* MyMediaStatusObservable.swift in Sources */,
+				CEBF86972C91993800763446 /* AppLog.swift in Sources */,
+				CE1F06842C5CCFE600A4E981 /* AudioDeviceView.swift in Sources */,
+				CEFBAE042C58A4BA00826502 /* DemoViews.swift in Sources */,
+				CE1F069E2C607A0D00A4E981 /* PeerProfileDesktopView.swift in Sources */,
+				CE45B7402C50E78D00779054 /* CallEndStatusView.swift in Sources */,
+				CEFCBEE32C8FFA0B0060BA6E /* AppConstant.swift in Sources */,
+				CEDF1DF72C3FA3410036F91F /* SettingsTextFieldView.swift in Sources */,
+				CE1F06902C60635000A4E981 /* VideoDeviceService.swift in Sources */,
+				CE1F06892C5CD03500A4E981 /* PlanetVideoDeviceService.swift in Sources */,
+				CE6B5F7B2C91911D005C9715 /* ToastMessageView.swift in Sources */,
+				CEDF1DFA2C3FA3410036F91F /* MainView.swift in Sources */,
+				CE1F06802C5CCFD900A4E981 /* ElapsedTimeView.swift in Sources */,
+				CE1F06862C5CD02300A4E981 /* IncomingCallDesktopView.swift in Sources */,
+				CEFBADFE2C58A48200826502 /* MockMyMediaStatus.swift in Sources */,
+				CEDF1DFC2C3FA3410036F91F /* CallKitService.swift in Sources */,
+				CE52D0E02C6C835C0083C8A8 /* GroupCallToolBarViewModel.swift in Sources */,
+				CE641FB12C52242100A99115 /* PushService.swift in Sources */,
+				CEFBADFF2C58A48200826502 /* PlanetMyMediaStatus.swift in Sources */,
+				CE52D0E22C6C835C0083C8A8 /* GroupCallToolBarControl.swift in Sources */,
+				CE52D0DF2C6C835C0083C8A8 /* GroupCallToolBarMobileView.swift in Sources */,
+				CE52D0DD2C6C83590083C8A8 /* GroupCallMyViewViewModel.swift in Sources */,
+				CE04ED1F2CA32DD100CAD37D /* GroupCallInfoView.swift in Sources */,
+				CEDF1DFE2C3FA3410036F91F /* PushKitService.swift in Sources */,
+				CEDF1DFF2C3FA3410036F91F /* DemoColor.swift in Sources */,
+				CE59076C2C77459E005B3200 /* CallStartFailureView.swift in Sources */,
+				CEFBAE092C58A50E00826502 /* SettingsView.swift in Sources */,
+				CE52D0DC2C6C83550083C8A8 /* GroupCallPreviewDesktopView.swift in Sources */,
+				CE52D0D72C6C83100083C8A8 /* PlanetGroupCallService.swift in Sources */,
+				CEFBAE152C58A58600826502 /* GroupCallJoinView.swift in Sources */,
+				CE193BBD2C52360C00283345 /* Camera.swift in Sources */,
+				CEDF1E002C3FA3410036F91F /* MainViewModel.swift in Sources */,
+				CE1F06812C5CCFD900A4E981 /* ElapsedTimeViewModel.swift in Sources */,
+				CE4277FF2C89A129006BD7E6 /* PlanetAppServerRepository.swift in Sources */,
+				CE1F067F2C5CCF4700A4E981 /* MockCallService.swift in Sources */,
+				CE52D0D22C6C82940083C8A8 /* PeerProfileMobileView.swift in Sources */,
+				CE1F06982C606D0A00A4E981 /* PlanetConstant.swift in Sources */,
+				CE52D0E32C6C83630083C8A8 /* GroupCallPeerViewModel.swift in Sources */,
+				CE52D0DE2C6C83590083C8A8 /* GroupCallMyView.swift in Sources */,
+				CEFBAE032C58A4AE00826502 /* AppServerRepository.swift in Sources */,
+				CE04ED1C2CA12BDE00CAD37D /* View+Extension.swift in Sources */,
+				CE52D0D42C6C82F00083C8A8 /* GroupCallPreviewMobileView.swift in Sources */,
+				CE1F06962C60651000A4E981 /* MockAudioDeviceService.swift in Sources */,
+				CEFBAE192C58A6D300826502 /* AppEnvironmentManager.swift in Sources */,
+				CEDF1E012C3FA3410036F91F /* DemoFont.swift in Sources */,
+				CEFBAE162C58A58600826502 /* GroupCallJoinViewModel.swift in Sources */,
+				CE38B9072C91373700CD6462 /* ToastView.swift in Sources */,
+				CEDF1E022C3FA3410036F91F /* planet_kit_demoapp_appleApp.swift in Sources */,
+				CED465A12C633517004BD9DD /* MuteButtonView.swift in Sources */,
+				CE641FB42C52243000A99115 /* PeerMuteIconView.swift in Sources */,
+				CE52D0DB2C6C834A0083C8A8 /* MockGroupCallService.swift in Sources */,
+				CE1F067E2C5CCF4700A4E981 /* PlanetCallService.swift in Sources */,
+				CE52D0DA2C6C83300083C8A8 /* GroupCallPeerView.swift in Sources */,
+				CE641FB22C52242100A99115 /* LongPollingService.swift in Sources */,
+				CEFBAE052C58A4CB00826502 /* DemoButtonStyle.swift in Sources */,
+				CE52D0D92C6C83250083C8A8 /* GroupCallViewModel.swift in Sources */,
+				CE52D0CF2C6B58FB0083C8A8 /* LocalizedString.swift in Sources */,
+				CE193BBF2C52360C00283345 /* VideoView.swift in Sources */,
+				CEFBAE122C58A55300826502 /* GroupCallUseCasesView.swift in Sources */,
+				CE641FB82C52244D00A99115 /* PlanetKit+Extension.swift in Sources */,
+				CEFBAE0E2C58A53900826502 /* SettingsService.swift in Sources */,
+				CE1F06972C606CD600A4E981 /* AudioDeviceService.swift in Sources */,
+				CEFBADFD2C58A48200826502 /* LogBrowser.swift in Sources */,
+				CE52D0D82C6C831A0083C8A8 /* GroupCallService.swift in Sources */,
+				CEF414A72C49F97D0080BFE3 /* VideoCallViewModel.swift in Sources */,
+				CEFBAE012C58A49100826502 /* CallService.swift in Sources */,
+				CEFBAE062C58A4E200826502 /* CallUseCasesView.swift in Sources */,
+				CE1F069B2C6079DC00A4E981 /* MyProfileDesktopView.swift in Sources */,
+				CEF414A82C49F9860080BFE3 /* VideoCallMobileView.swift in Sources */,
+				CEF4148E2C47972A0080BFE3 /* AudioCallViewModel.swift in Sources */,
+				CE641FAD2C52240700A99115 /* PreviewCallViewModel.swift in Sources */,
+				CE52D0E72C6C83670083C8A8 /* GroupCallDesktopView.swift in Sources */,
+				CEFBAE0F2C58A53900826502 /* MockSettingsService.swift in Sources */,
+				CE1F06932C60636600A4E981 /* MockVideoDeviceService.swift in Sources */,
+				CE52D0E62C6C83630083C8A8 /* GroupCallPeer.swift in Sources */,
+				CEFBAE0A2C58A51200826502 /* SettingsViewModel.swift in Sources */,
+				CE1F06882C5CD03500A4E981 /* PlanetAudioDeviceService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE614D282B9968EB0049F37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE614D142B9968E90049F37D /* planet-kit-demoapp-apple */;
+			targetProxy = CE614D272B9968EB0049F37D /* PBXContainerItemProxy */;
+		};
+		CE614D322B9968EB0049F37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE614D142B9968E90049F37D /* planet-kit-demoapp-apple */;
+			targetProxy = CE614D312B9968EB0049F37D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE34EC4B2C744A6900C9A623 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE34EC4A2C744A6900C9A623 /* en */,
+				CE34EC4C2C744A7400C9A623 /* ko */,
+				CE34EC502C744B2D00C9A623 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		CE52D0C02C6AFB6C0083C8A8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE52D0C12C6AFB6C0083C8A8 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CE52D0C32C6AFB6C0083C8A8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE52D0C42C6AFB6C0083C8A8 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CEFF2D362C7DE332002F9E1B /* DemoApp-iOS-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFF2D372C7DE332002F9E1B /* Base */,
+				CEFF2D3A2C7DE340002F9E1B /* en */,
+				CEFF2D3B2C7DE342002F9E1B /* ko */,
+			);
+			name = "DemoApp-iOS-Info.plist";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE614D382B9968EB0049F37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "LINE Planet Call";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE614D392B9968EB0049F37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "LINE Planet Call";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CE614D3B2B9968EB0049F37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "planet-kit-demoapp-apple/planet_kit_demoapp_apple.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_ASSET_PATHS = "\"planet-kit-demoapp-apple/Preview Content\"";
+				DEVELOPMENT_TEAM = 8G473GSRFY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "planet-kit-demoapp-apple/Resources/Base.lproj/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses the Camera for call video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) uses the Microphone for call audio";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lineplus.planet-kit-demoapp-apple";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE614D3C2B9968EB0049F37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "planet-kit-demoapp-apple/planet_kit_demoapp_apple.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_ASSET_PATHS = "\"planet-kit-demoapp-apple/Preview Content\"";
+				DEVELOPMENT_TEAM = 8G473GSRFY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "planet-kit-demoapp-apple/Resources/Base.lproj/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses the Camera for call video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) uses the Microphone for call audio";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lineplus.planet-kit-demoapp-apple";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE614D3E2B9968EB0049F37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G473GSRFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lineplus.planet-kit-demoapp-appleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/planet-kit-demoapp-apple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/planet-kit-demoapp-apple";
+			};
+			name = Debug;
+		};
+		CE614D3F2B9968EB0049F37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G473GSRFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lineplus.planet-kit-demoapp-appleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/planet-kit-demoapp-apple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/planet-kit-demoapp-apple";
+			};
+			name = Release;
+		};
+		CE614D412B9968EB0049F37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G473GSRFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lineplus.planet-kit-demoapp-appleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "planet-kit-demoapp-apple";
+			};
+			name = Debug;
+		};
+		CE614D422B9968EB0049F37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8G473GSRFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lineplus.planet-kit-demoapp-appleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "planet-kit-demoapp-apple";
+			};
+			name = Release;
+		};
+		CEDF1E0F2C3FA3410036F91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "planet-kit-demoapp-apple/planet_kit_demoapp_apple.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_ASSET_PATHS = "\"planet-kit-demoapp-apple/Preview Content\"";
+				DEVELOPMENT_TEAM = 8G473GSRFY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "planet-kit-demoapp-apple/Resources/Base.lproj/DemoApp-iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses the Camera for call video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) uses the Microphone for call audio";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linecorp.planetkit.test.ios;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CEDF1E102C3FA3410036F91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "planet-kit-demoapp-apple/planet_kit_demoapp_apple.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NAVER Japan K.K.";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_ASSET_PATHS = "\"planet-kit-demoapp-apple/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = GFPYJQXRSN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "planet-kit-demoapp-apple/Resources/Base.lproj/DemoApp-iOS-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses the Camera for call video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) uses the Microphone for call audio";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linecorp.inhouse.planetkit.demo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "LINE Inhouse Planet Call";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE614D102B9968E90049F37D /* Build configuration list for PBXProject "planet-kit-demoapp-apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE614D382B9968EB0049F37D /* Debug */,
+				CE614D392B9968EB0049F37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE614D3A2B9968EB0049F37D /* Build configuration list for PBXNativeTarget "planet-kit-demoapp-apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE614D3B2B9968EB0049F37D /* Debug */,
+				CE614D3C2B9968EB0049F37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE614D3D2B9968EB0049F37D /* Build configuration list for PBXNativeTarget "planet-kit-demoapp-appleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE614D3E2B9968EB0049F37D /* Debug */,
+				CE614D3F2B9968EB0049F37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE614D402B9968EB0049F37D /* Build configuration list for PBXNativeTarget "planet-kit-demoapp-appleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE614D412B9968EB0049F37D /* Debug */,
+				CE614D422B9968EB0049F37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDF1E0E2C3FA3410036F91F /* Build configuration list for PBXNativeTarget "DemoApp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDF1E0F2C3FA3410036F91F /* Debug */,
+				CEDF1E102C3FA3410036F91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE4F1CD52C1BDC120087DEEF /* XCRemoteSwiftPackageReference "planet-kit-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/line/planet-kit-apple.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE4F1CD62C1BDC120087DEEF /* PlanetKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4F1CD52C1BDC120087DEEF /* XCRemoteSwiftPackageReference "planet-kit-apple" */;
+			productName = PlanetKit;
+		};
+		CE8B35EE2C58A82D00FBF54D /* PlanetKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4F1CD52C1BDC120087DEEF /* XCRemoteSwiftPackageReference "planet-kit-apple" */;
+			productName = PlanetKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE614D0D2B9968E90049F37D /* Project object */;
+}

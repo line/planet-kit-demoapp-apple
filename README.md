@@ -69,6 +69,10 @@ To run the app on the iOS simulator or a physical device in Xcode:
 
 The app will build and run on the selected device.
 
+## Limitations
+
+In LINE Planet Call, each call is limited to a maximum duration of five minutes. After five minutes, the call will automatically end with the disconnect reason `.maxCallTimeExceeded`.
+
 ## Issues and inquiries
 
 Please file any issues or inquiries you have to our representative or [dl\_planet\_help@linecorp.com](mailto:dl_planet_help@linecorp.com). 
